@@ -1,0 +1,67 @@
+/* General Styles */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  mark {
+    background-color: #444;
+    color: #00c853;
+    padding: 0 4px;
+    border-radius: 3px;
+  }
+  
+  /* Genre Description */
+  .genre-description {
+    margin-bottom: 30px;
+  }
+  
+  /* History and Characteristics */
+  .history-characteristics ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  /* Prominent Artists */
+  .prominent-artists ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .prominent-artists li a {
+    color: #00c853;
+    text-decoration: none;
+  }
+  
+  .prominent-artists li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Section */
+  .media {
+    margin-top: 30px;
+  }
+  
+  .media .video iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .media .audio audio {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+  }

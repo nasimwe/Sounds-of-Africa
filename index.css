@@ -1,0 +1,215 @@
+/* Additional styles for Home Page */
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  color: #00c853;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+} 
+
+.hero iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border-radius: 8px;
+}
+
+.featured-artists {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1c;
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.featured-artists h3 {
+  color: #00c853;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Individual figure styling */
+figure {
+  display: flex;
+  flex-direction: row;
+  background-color: #2a2a2a;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  align-items: center;
+  justify-content: space-between;
+}
+
+figure img {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 1.1rem;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Button inside figcaption */
+figcaption a {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00c853;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid #00c853;
+  transition: background-color 0.3s ease;
+}
+
+figcaption a:hover {
+  background-color: #66bb6a;
+}
+
+/* Optional: Adjust spacing between figures for responsiveness */
+figure + figure {
+  margin-bottom: 20px;
+}
+
+/* Styling for Explore by Genre Section */
+.explore-genres {
+  background-color: #2a2a2a;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.explore-genres h3 {
+  color: #00c853;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.genre-link {
+  display: inline-block;
+  background-color: #121212; 
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.genre-link:hover {
+  background-color: #00c853;
+  color: black;
+  border-color: white; 
+  transform: translateY(-3px);
+}
+
+/* Latest News Section Styles */
+.latest-news {
+  background-color: #1c1c1c; /* Matches the dark theme */
+  padding: 40px 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+}
+
+.latest-news h3 {
+  color: #00c853; /* Vibrant green for the heading */
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Article Card Styling */
+.latest-news article {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.latest-news article:hover {
+  transform: translateY(-5px); /* Slight hover lift */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+}
+
+.latest-news article h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.latest-news article p {
+  color: #ccc;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.latest-news article mark {
+  background-color: #00c853; /* Highlight important text */
+  color: black;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.latest-news article a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #00c853;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.latest-news article a:hover {
+  background-color: #66bb6a;
+  transform: translateY(-3px);
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  figure {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  figure img {
+      margin-right: 0;
+      margin-bottom: 15px;
+  }
+
+  figcaption {
+      text-align: center;
+      justify-content: center;
+  }
+
+  .explore-genres {
+    padding: 20px;
+  }
+
+  .genre-link {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}

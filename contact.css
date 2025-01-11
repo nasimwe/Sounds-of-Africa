@@ -1,0 +1,48 @@
+/* Contact Page Specific Styles */
+section {
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  section h2 {
+    color: #00c853;
+    margin-bottom: 15px;
+  }
+  
+  section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  section input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  section textarea {
+    resize: vertical;
+  }
+  
+  section button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #00c853;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  section button:hover {
+    background-color: #66bb6a;
+  }
+  
