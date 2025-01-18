@@ -23,6 +23,7 @@ body {
     border-color: #00c853;
     width: 20%;
     min-height: auto;
+    font-family:  "Montserrat", serif;
   }
 
   nav h1 {
@@ -122,6 +123,7 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    font-family: "Poppins", serif;
   }
   
   footer h3 {
